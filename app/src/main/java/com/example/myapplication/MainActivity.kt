@@ -68,7 +68,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
         findViewById<ImageButton>(R.id.imageButton5).setOnClickListener {
-            Toast.makeText(this@MainActivity,"To jest żul",Toast.LENGTH_SHORT).show()
+            Toast.makeText(this@MainActivity,"To jest trawa",Toast.LENGTH_SHORT).show()
             if (z5 === false)
             {
                 findViewById<ImageButton>(R.id.imageButton5).alpha = 0.5F
